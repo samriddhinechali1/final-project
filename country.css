@@ -1,0 +1,328 @@
+
+.container{
+    /* max-width: 1200px; */
+    margin: auto;
+}
+#blue{
+    background-color: darkblue;
+    color: black;
+    padding: 20px;
+}
+a:link{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.country-head{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+/* #black{
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+} */
+.aussie{
+    padding-left: 435px;
+    font-size: 25px;
+    padding-bottom: 15px;
+
+}
+#australia{
+    height: 300px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.midaus{
+    margin-top: 70px;
+    text-align: justify;
+    width: 80%;
+    margin-left: 75px;
+    /* font-family: 'Work sans'; */
+    
+}
+#kangaroo{
+    height: 400px;
+    width: 350px;
+    margin-left: 155px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.middown{
+    margin-left: 50px;
+    margin-right: 90px;
+    margin-top: 200px;
+}
+#india{
+    height: 300px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+#tiger{
+    height: 400px;
+    width: 400px;
+    margin-left: 135px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#orange{
+    background-color: orange;
+    color: black;
+    padding: 20px;
+}
+/* #indo{
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+} */
+.bottom{
+    margin-bottom: 0px;
+}
+/* #mexi{
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+} */
+#mexico{
+    height: 300px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+#eagle{
+    height: 400px;
+    width: 400px;
+    margin-left: 135px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#green{
+    background-color: green;
+    color: black;
+    padding: 20px;
+}
+#soaf{
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+}
+#africa{
+    height: 250px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+#buck{
+    height: 300px;
+    width: 400px;
+    margin-left: 140px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* #blackk{
+    background-color: rgb(4, 105, 71);
+    color: white;
+    padding: 20px;
+} */
+/* #united{
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+} */
+#uking{
+    height: 250px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+#lion{
+    height: 300px;
+    width: 400px;
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#red{
+    background-color:  #051c53;
+    color: white;
+    padding: 20px;
+}
+/* #vene{
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+} */
+#venezuela{
+    height: 250px;
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+#troupial{
+    height: 300px;
+    width: 400px;
+    margin-left: 130px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+#yellow{
+    background-color: yellow;
+    color: white;
+    padding: 20px;
+}
+#para{
+    padding-bottom: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 93px;
+    color: white;
+}
+p{
+    font-size: 18px;
+}
+.bg-blue{
+    background-image: linear-gradient(to right, #191970,#5168ae, #3c7daa,#5168ae, #191970);
+}
+#one{
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 120px;
+    color: white;
+}
+#two{
+    border: 1px solid white;
+    padding: 20px;
+    margin-right: 100px;
+    text-align: center;
+    color: white;
+}
+.bg-orange{
+    background-image: linear-gradient(to right, #ff783a, #ff9248,#e38f61, #ff9248,#ff783a );
+}
+#three{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 90px;
+    /* color: #264662; */
+    color: white;
+}
+#four{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin-right: 140px;
+    text-align: center;
+    /* color: #264662; */
+    color: white;
+}
+.bg-green{
+    background-image: linear-gradient(to right, #006341, #16875f,#1f976d, #16875f, #006341 ); 
+}
+#five{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    margin-top: 85px;
+}
+#six{
+    border: 1px solid white;
+    padding: 20px;
+    margin-right: 120px;
+    color: white;
+    text-align: center;
+}
+#litrig{
+    padding-left: 465px ;
+}
+.bg-red{
+    background-image: linear-gradient(to right, #061E45, #22465e,#275472,#22465e, #061E45);
+}
+#nine{
+    border: 1px solid beige;
+    padding: 10px;
+    color: beige;
+}
+#ten{
+    border: 1px solid beige;
+    padding: 20px;
+    margin-right: 120px;
+    text-align: center;
+    margin-top: 160px;
+    color: beige;
+}
+.bg-yellow{
+    /* background-image: linear-gradient(to right, #d2cf42, #d8d76b, #c8c776, #d8d76b, #d2cf42); */
+    /* background-image: linear-gradient(to right,#FA0101, #d93030,#e55555, #d93030, #FA0101); */
+    background-image: linear-gradient(to right,#ff4e4e, #ff6363,#db7575, #ff6363, #ff4e4e);
+}
+#eleven{
+    border: 1px solid white;
+    margin-right: 120px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 160px;
+    color: white;
+}
+
+.stop{
+    width: 60%;
+}
+.bg-jadegreen{
+    background-image: linear-gradient(to right, #75b495, #8bcb96, #9acb8b, #8bcb96, #75b495);
+}
+#seven{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    margin-top: 100px;
+}
+#eight{
+    border: 1px solid white;
+    padding: 20px;
+    margin-right: 120px;
+    margin-top: 160px;
+    color: white;
+    text-align: center;
+}
+#emblue{
+    color: blue;
+    font-weight: bold;
+}
+.bg-light{
+    background-color: lightblue;
+}
+ /* .border-blue{
+    border: 3px solid  #191970 ;
+    margin-bottom: 0px; */
+
+/* body{
+    max-width: 1300px;
+    margin: auto;
+    border: 3px solid  #191970 ;
+} */
+#emorange{
+    color:  #ff783a;
+    font-weight: bold;
+}
+#emgreen{
+    color:  #006341;
+    font-weight: bold;
+}
+#emjade{
+    color:  #669a80;
+    font-weight: bold;
+}
+#emred{
+    color: #174795;
+    font-weight: bold;
+}
+#emyellow{
+    color: red;
+    font-weight: bold;
+}
+#move-left{
+    margin-left: -50px;
+}
