@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagehome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="greybg">
+        <div class="row">
+            <div class="col-md-12">
+                <header>
+                    <h1 id="contact-head">Get in touch!</h1>
+                </header>
+            </div>
+        </div>
+        <form>
+            <div class="contain-form">
+                <div class="border-form">
+                  <div class="row">
+                    <div class="col-md-12">
+                   <!-- <label for="mail">Please type in your email address so we could reply back to you.</label>
+                    <br>
+                    <input type="email" id="mail" aria-describedby="emailHelp" placeholder="Enter email">
+                    <br>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <br> -->
+                      <div class="form-group">
+                        <label for="mail" id="top">Please type in your email address so we could reply back to you.</label>
+                        <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <span>How was your experience with the website?</span>
+                    <br>
+                      <input type="radio" name="feedback" id="feedback" value="opt1" class="small">
+                      <label for="feedback" class="sizing">Good</label>
+                      <input type="radio" name="feedback" id="feedback2" value="opt2" class="small">
+                      <label for="feedback2" class="sizing">It was okay</label>
+                      <input type="radio" name="feedback" id="feedback3" value="opt3" class="small">
+                      <label for="feedback3" class="sizing">Bad</label>
+                      <input type="radio" name="feedback" id="feedback4" value="opt4" class="small">
+                      <label for="feedback4" class="sizing">Waste of time</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="suggestion">Feel free to drop in some comments , questions or suggestions if you'd like !
+                    </label>
+                    <br>
+                    <textarea id="suggestion" name="suggestion" rows="5" cols="138"></textarea>
+                    <br>
+                    <button  class="btn btn-primary" type="submit" id="myButton" onclick="submitButton()">Submit</button>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+</div>
+    
+
+
+
+    
+    <script src="quiz.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
