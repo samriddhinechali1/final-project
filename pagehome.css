@@ -132,30 +132,7 @@ img{
     background-color: rgb(40, 153, 9);
     color: white;
 }
-#contact-head{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.contain-form{
-    margin-left: 60px;
-    /* border: 2px solid black; */
-    padding: 20px;
-    margin-right: 60px;
-    height: 500px;
-    font-family: 'Poppins', sans-serif;
-    
-}
-label{
-    font-size: 20px;
-    font-family: 'Helvetica';
-    padding-bottom: 20px;
-}
-span{
-    font-size: 20px;
-    font-family: 'Helvetica';
-    margin-bottom: 10px;
-}
+
 #mexpop{
     display: none;
     text-align: center;
@@ -211,12 +188,7 @@ footer{
    font-size: 30px;
    letter-spacing: 1px;
 }
-.border-form{
-    border: 2px solid black;
-    padding-left: 15px;
-    padding-right: 15px;
-  
-}
+
 .sizing{
     font-size: 16px;
 }
@@ -241,16 +213,7 @@ div.slide-left h1{
   } 
 
 }*/
-#myButton{
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-.greybg {
-    background-image: linear-gradient(to right, #8595a1 , #a4b4bf, #cbd7e0,  #a4b4bf, #8595a1);
-    margin-left: -12px;
-    margin-right: -20px;
-    margin-top: 65px;
-}
+
 #instruction{
     text-align: center;
     font-size: 24px;
