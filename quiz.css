@@ -1,11 +1,6 @@
-.container{
-    /* max-width: 1200px; */
-    margin-left: 400px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    /* background-image: linear-gradient(to right, #68A7AD, #A0BCC2,#cde8ee, #A0BCC2, #68A7AD); */
-    /* background-image: linear-gradient(to right, #8bb8e6, #b0c8e0,  #bcd3eb,  #b0c8e0,  #8bb8e6);  */
-    /* background-image: linear-gradient(to right, #a3bca3, #C1E1C1); */
+body{
+    width: 100%;
+    margin: auto;
     background-image: linear-gradient(to right, #869ba2, #B5CFD8, #B5CFD8, #B5CFD8, #7393A7);
 }
 
