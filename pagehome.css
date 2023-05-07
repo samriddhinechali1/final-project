@@ -1,12 +1,4 @@
-.container{
-    max-width: 100%;
-    /* max-width: 1200px; */
-    /* margin-left: 400px; */
-     margin: auto;
-    /* background-color: lightblue; */
-    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
-    /* background-image: linear-gradient(to right, #402147,#1F2A48,#1C4831, #472747); */
-    /* background-image: linear-gradient(to right, #9E7400,#194BFF,#EBAD00); */
+body{
     background-image: linear-gradient(to right, #284D79, #6D94C4, #ABC0DF, #ACBFC5, #596353);
 }
 /* p{
