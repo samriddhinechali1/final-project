@@ -49,11 +49,11 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   margin-right: 300px;
-  margin-left: 300px;
+  margin-left: 310px;
 }
 #mainpic{
     width: 900px;
-    margin-left: 150px;
+    margin-left: 200px;
     height: 500px;
     margin-top: 20px;
     opacity: 0.8;
@@ -84,7 +84,7 @@ nav{
     margin-left: 50px;
 }
 #right{
-    margin-left: 940px;
+    margin-left: 1150px;
     text-decoration: none;
     padding: 8px;
     color: white;
