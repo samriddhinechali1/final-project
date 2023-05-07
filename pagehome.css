@@ -2,6 +2,7 @@ body{
     width: 100%;
     margin: auto;
     background-image: linear-gradient(to right, #284D79, #6D94C4, #ABC0DF, #ACBFC5, #596353);
+    overflow-x: hidden;
 }
 
 .bg-world{
