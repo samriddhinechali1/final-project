@@ -12,20 +12,20 @@ body {
 }
 
 #bunny {
-  margin-left: 400px;
+  margin-left: 600px;
   margin-top: 90px;
 }
 figcaption {
   font-weight: bold;
   font-size: 22px;
-  margin-left: 110px;
+  margin-left: 500px;
   margin-top: 30px;
   text-transform: uppercase;
   color: #0d4c92;
   font-family: "Playfair Display";
 }
 #error {
-  margin-left: 400px;
+  margin-left: 600px;
   margin-top: 200px;
   height: 300px;
   /* border: 2px solid black; */
