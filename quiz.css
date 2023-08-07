@@ -1,92 +1,96 @@
-body{
-    width: 100%;
-    margin: auto;
-    background-image: linear-gradient(to right, #869ba2, #B5CFD8, #B5CFD8, #B5CFD8, #7393A7);
+body {
+  width: 100%;
+  margin: auto;
+  background-image: linear-gradient(
+    to right,
+    #869ba2,
+    #b5cfd8,
+    #b5cfd8,
+    #b5cfd8,
+    #7393a7
+  );
 }
 
-
-#bunny{
-  margin-left: 110px;
+#bunny {
+  margin-left: 400px;
   margin-top: 90px;
 }
-figcaption{
-    font-weight: bold;
-    font-size: 22px;
-    margin-left: 110px;
-    margin-top: 30px;
-    text-transform: uppercase;
-    color: #0D4C92;
-    font-family: 'Playfair Display';
+figcaption {
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 110px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #0d4c92;
+  font-family: "Playfair Display";
 }
-#error{
-    margin-left: 110px;
-    margin-top: 200px;
-    height: 300px;
-    /* border: 2px solid black; */
+#error {
+  margin-left: 400px;
+  margin-top: 200px;
+  height: 300px;
+  /* border: 2px solid black; */
 }
-.row{
-    display: flex;
-}
-
-.column{
-    flex: 50%;
+.row {
+  display: flex;
 }
 
-
-
-h1{
-    margin-left: 550px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: 'Noto serif';
-    font-weight: bold;
-    animation: wiggle 2s infinite;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.column {
+  flex: 50%;
 }
-p{
-    text-align: center;
-    margin-right: 275px;
-    padding: 20px;
-    margin-top: 15px;
-    font-size: 20px;
-    font-family: 'Helvetica', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 600;
-    /* color: rgb(108, 57, 108); */
-    color: rgb(99, 53, 99);
+
+h1 {
+  margin-left: 550px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Noto serif";
+  font-weight: bold;
+  animation: wiggle 2s infinite;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+p {
+  text-align: center;
+  margin-right: 275px;
+  padding: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: "Helvetica", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  /* color: rgb(108, 57, 108); */
+  color: rgb(99, 53, 99);
 }
 
 .hovertext {
-    position: relative;
-    text-decoration: none;
-    font-family: 'Darumadrop one';
-  }
-  
-  .hovertext:before {
-    content: attr(data-hover);
-    visibility: hidden;
-    opacity: 0;
-    width: 140px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px 0;
-    transition: opacity 1s ease-in-out;
-  
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 110%;
-  }
-  
-  .hovertext:hover:before {
-    opacity: 1;
-    visibility: visible;
-    transition: 0.2s;
-  }
-  /* .blink {
+  position: relative;
+  text-decoration: none;
+  font-family: "Darumadrop one";
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.2s;
+}
+/* .blink {
     animation: blinker 1.5s linear infinite;
    
 }
@@ -95,75 +99,91 @@ p{
         opacity: 0;
     }
 } */
-nav{
-    margin-left: 185px;
+nav {
+  margin-left: 185px;
 }
-a:link{
-    text-decoration: none;
-    color: #228b22;
+a:link {
+  text-decoration: none;
+  color: #228b22;
 }
-#colorful{
-    /* color: red; ff7a7a */
-    /* color: #ff5d5d; */
-    color: #C41E3A;
-    padding-left: 300px;
+#colorful {
+  /* color: red; ff7a7a */
+  /* color: #ff5d5d; */
+  color: #c41e3a;
+  padding-left: 300px;
 }
-span{
-    color: #228b22;
-    font-family: 'Darumadrop One';
+span {
+  color: #228b22;
+  font-family: "Darumadrop One";
 }
-.palette{
-    background-color: #B9F8D3; 
-    height: 750px;
+.palette {
+  background-color: #b9f8d3;
+  height: 750px;
 }
-.middle{
-    /* max-width: 1200px; */
-    margin-left: 220px;
-    /* background-image: linear-gradient(to right, #8bb8e6, #b0c8e0,  #bcd3eb,  #b0c8e0,  #8bb8e6);  */
-    /* background-image: linear-gradient(to right, #869ba2, #B5CFD8, #B5CFD8, #B5CFD8, #7393A7); */
+.middle {
+  /* max-width: 1200px; */
+  margin-left: 220px;
+  /* background-image: linear-gradient(to right, #8bb8e6, #b0c8e0,  #bcd3eb,  #b0c8e0,  #8bb8e6);  */
+  /* background-image: linear-gradient(to right, #869ba2, #B5CFD8, #B5CFD8, #B5CFD8, #7393A7); */
 }
-img{
-    padding-bottom: 20px;
+img {
+  padding-bottom: 20px;
 }
-#safr{
-    margin-left: 60px;
+#safr {
+  margin-left: 60px;
 }
-#venezu{
-    margin-left: 60px;
+#venezu {
+  margin-left: 60px;
 }
-#mexeagle{
-    margin-left: 60px;
+#mexeagle {
+  margin-left: 60px;
 }
-#indho{
-    margin-left: 65px;
+#indho {
+  margin-left: 65px;
 }
-#kanroo{
-    margin-left: 65px;
+#kanroo {
+  margin-left: 65px;
 }
-#vikingjo{
-    margin-left: 70px;
-} 
-#code{
-    margin-top: 30px;
-    /* color: rgb(13, 48, 74); */
-    color: navy;
+#vikingjo {
+  margin-left: 70px;
 }
-@keyframes wiggle{
-    0%{transform: translate(1px, 1px) rotate(0deg);}
-    40%{transform: translate(1px, -1px) rotate(1deg);}
-    50%{transform: translate(-1px, 2px) rotate(-1deg);}
-    60%{transform: translate(-3px, 1px) rotate(0deg);}
-    70%{transform: translate(3px, 1px) rotate(-1deg);}
-    80%{transform: translate(-1px, -1px) rotate(1deg);}
-    90%{transform: translate(1px, 2px) rotate(0deg);}
-    100%{transform: translate(1px, -2px) rotate(-1deg);}
+#code {
+  margin-top: 30px;
+  /* color: rgb(13, 48, 74); */
+  color: navy;
 }
-.sage{
-    background-color: #B9F8D3;
-    margin-left: -15px;
+@keyframes wiggle {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
-@media only screen and (max-width: 480px){
-    body{
-        background-color: navy;
-    }
+.sage {
+  background-color: #b9f8d3;
+  margin-left: -15px;
+}
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: navy;
+  }
 }
